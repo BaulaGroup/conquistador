@@ -24,13 +24,12 @@ public class BGDemo extends JPanel {
     {
         super(null);
         try
-        {            
+        {
             String filePath = "imgs/main_screen.jpg";
-            getFileImage(filePath);            
+            getFileImage(filePath);
         } catch (Exception ex)
         {
             message = "File load failed: " + ex.getMessage();
-            System.exit(0);
         }
     }
 
