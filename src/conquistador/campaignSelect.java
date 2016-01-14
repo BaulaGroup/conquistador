@@ -15,7 +15,6 @@ public class campaignSelect implements Runnable {
         t.start();
     }
 
-    @Override
     public void run() {
         while (lp.f.running()) {
             try {

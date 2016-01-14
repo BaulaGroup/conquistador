@@ -48,7 +48,6 @@ public class granary extends buildings implements Runnable{
         } else f.constructionCompletion(false);
     }
 
-    @Override
     public void run() {
         try {
             Thread.sleep(2000);
