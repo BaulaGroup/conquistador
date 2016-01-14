@@ -1,0 +1,8 @@
+.classpath
+.project
+.DS_Store
+build/
+dist/
+nbproject/
+
+
