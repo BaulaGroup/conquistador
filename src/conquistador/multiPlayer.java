@@ -27,11 +27,11 @@ public class multiPlayer {
     /**
     Creates a new SimpleScreenManager object.
      */
-    Icon icon1 = new ImageIcon("c:\\imgs\\host.jpg");
+    Icon icon1 = new ImageIcon("imgs/host.jpg");
     JButton aButton = new JButton(icon1);
-      Icon icon3 = new ImageIcon("c:\\imgs\\join.jpg");
+      Icon icon3 = new ImageIcon("imgs/join.jpg");
     JButton joinButton = new JButton(icon3);
-    Icon icon2 = new ImageIcon("c:\\imgs\\backto.jpg");
+    Icon icon2 = new ImageIcon("imgs/backto.jpg");
     JButton muButton = new JButton(icon2);
     JTextField textField1 = new JTextField("Lord of War");
     JTextField textField2 = new JTextField("I.P. address");
@@ -65,7 +65,7 @@ public class multiPlayer {
         muButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         muButton.setToolTipText("Back TO Main");
         muButton.setBorder(null);
-        muButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\backto1.jpg"));
+        muButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/backto1.jpg"));
         muButton.addActionListener(new java.awt.event.ActionListener() {
 
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,7 +80,7 @@ public class multiPlayer {
         aButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         aButton.setToolTipText("Host");
         aButton.setBorder(null);
-        aButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\host1.jpg"));
+        aButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/host1.jpg"));
 
         aButton.addActionListener(new java.awt.event.ActionListener() {
 
@@ -95,7 +95,7 @@ public class multiPlayer {
         joinButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         joinButton.setToolTipText("Join");
         joinButton.setBorder(null);
-        joinButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\join1.jpg"));
+        joinButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/join1.jpg"));
 
         joinButton.addActionListener(new java.awt.event.ActionListener() {
 

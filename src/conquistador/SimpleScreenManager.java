@@ -18,11 +18,11 @@ public class SimpleScreenManager {
     /**
     Creates a new SimpleScreenManager object.
      */
-    Icon icon1 = new ImageIcon("c:\\imgs\\exit.jpg");
+    Icon icon1 = new ImageIcon("imgs/exit.jpg");
     JButton aButton = new JButton(icon1);
-    Icon icon2 = new ImageIcon("c:\\imgs\\multiplayer.jpg");
+    Icon icon2 = new ImageIcon("imgs/multiplayer.jpg");
     JButton muButton = new JButton(icon2);
-    Icon icon3 = new ImageIcon("c:\\imgs\\historical.jpg");
+    Icon icon3 = new ImageIcon("imgs/historical.jpg");
     JButton hiButton = new JButton(icon3);
 
     public SimpleScreenManager() {
@@ -34,6 +34,8 @@ public class SimpleScreenManager {
 
     /**
     Enters full screen mode and changes the display mode.
+     * @param displayMode
+     * @param window
      */
     public void setFullScreen(DisplayMode displayMode,
             JFrame window) {
@@ -47,7 +49,7 @@ public class SimpleScreenManager {
         muButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         muButton.setToolTipText("NetworkMode");
         muButton.setBorder(null);
-        muButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\multiplayer1.jpg"));
+        muButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/multiplayer1.jpg"));
 
         muButton.addActionListener(new java.awt.event.ActionListener() {
 
@@ -61,7 +63,7 @@ public class SimpleScreenManager {
         hiButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         hiButton.setToolTipText("Historical Campaign");
         hiButton.setBorder(null);
-        hiButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\historical1.jpg"));
+        hiButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/historical1.jpg"));
 
         hiButton.addActionListener(new java.awt.event.ActionListener() {
 
@@ -77,7 +79,7 @@ public class SimpleScreenManager {
         aButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         aButton.setToolTipText("Exit");
         aButton.setBorder(null);
-        aButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\exit1.jpg"));
+        aButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/exit1.jpg"));
 
         aButton.addActionListener(new java.awt.event.ActionListener() {
 

@@ -41,9 +41,9 @@ public class storyScreenManager{
     /**
      * Creates a new SimpleScreenManager object.
      */
-    Icon icon1 = new ImageIcon("c:\\imgs\\back.jpg");
+    Icon icon1 = new ImageIcon("imgs/back.jpg");
     JButton aButton = new JButton(icon1);
-    Icon icon2 = new ImageIcon("c:\\imgs\\start.jpg");
+    Icon icon2 = new ImageIcon("imgs/start.jpg");
     JButton muButton = new JButton(icon2);
     public String playId;
     
@@ -71,7 +71,7 @@ public class storyScreenManager{
         muButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         muButton.setToolTipText("start");
         muButton.setBorder(null);
-        muButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\start1.jpg"));
+        muButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/start1.jpg"));
         muButton.addActionListener(new java.awt.event.ActionListener() {
             
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,7 +86,7 @@ public class storyScreenManager{
         aButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         aButton.setToolTipText("back");
         aButton.setBorder(null);
-        aButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\back1.jpg"));
+        aButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/back1.jpg"));
         
         aButton.addActionListener(new java.awt.event.ActionListener() {
             

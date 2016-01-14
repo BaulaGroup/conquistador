@@ -30,7 +30,7 @@ public class cmdemo extends JPanel {
   public cmdemo() {
     super(null);
     try {
-      getFileImage("c:\\imgs\\Campaign_mode.jpg");
+      getFileImage("imgs/Campaign_mode.jpg");
 
     }
     catch (Exception ex) {

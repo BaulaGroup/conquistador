@@ -44,7 +44,7 @@ public class smdemo extends JPanel {
   public smdemo() {
     super(null);
     try {
-      getFileImage("c:\\imgs\\story_mode.jpg");
+      getFileImage("imgs/story_mode.jpg");
 
     }
     catch (Exception ex) {

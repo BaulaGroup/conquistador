@@ -22,9 +22,9 @@ public class campaignscreenmanager {
     /**
      * Creates a new SimpleScreenManager object.
      */
-    Icon icon1 = new ImageIcon("c:\\imgs\\back.jpg");
+    Icon icon1 = new ImageIcon("imgs/back.jpg");
     JButton aButton = new JButton(icon1);
-    Icon icon2 = new ImageIcon("c:\\imgs\\start.jpg");
+    Icon icon2 = new ImageIcon("imgs/start.jpg");
     JButton muButton = new JButton(icon2);
     JTextField textField1 = new JTextField("Lord of War");
     String string[]={ "Mission 1 The Begining", "Mission 2 Ready to Attack", "Mission 3 Get Some Revenge", "Mission 4 Thought Of Unification"};
@@ -64,7 +64,7 @@ public class campaignscreenmanager {
         muButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         muButton.setToolTipText("start");
         muButton.setBorder(null);
-        muButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\start1.jpg"));
+        muButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/start1.jpg"));
         muButton.addActionListener(new java.awt.event.ActionListener() {
             
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +79,7 @@ public class campaignscreenmanager {
         aButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         aButton.setToolTipText("back");
         aButton.setBorder(null);
-        aButton.setRolloverIcon(new javax.swing.ImageIcon("C:\\imgs\\back1.jpg"));
+        aButton.setRolloverIcon(new javax.swing.ImageIcon("imgs/back1.jpg"));
         
         aButton.addActionListener(new java.awt.event.ActionListener() {
             

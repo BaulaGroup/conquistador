@@ -3753,7 +3753,7 @@ private void adminGroundActionPerformed(java.awt.event.ActionEvent evt) {//GEN-F
 
     public void refreshBoard(){
         //System.out.println("Here");
-        File empty_board=new File("c:\\imgs\\bckgrnd.jpg");
+        File empty_board=new File("imgs/bckgrnd.jpg");
         BufferedImage i=null;
         try {
             i = ImageIO.read(empty_board);
@@ -3762,7 +3762,7 @@ private void adminGroundActionPerformed(java.awt.event.ActionEvent evt) {//GEN-F
         }
         Graphics g=ground.getGraphics();
 
-        /*File tiger=new File("c:\\imgs\\tiger.gif");
+        /*File tiger=new File("imgs/tiger.gif");
         BufferedImage img_tiger=null;
         try {
         img_tiger = ImageIO.read(tiger);

@@ -30,7 +30,7 @@ public class muldemo extends JPanel {
   public muldemo() {
     super(null);
     try {
-      getFileImage("c:\\imgs\\multiplayerscreen.jpg");
+      getFileImage("imgs/multiplayerscreen.jpg");
 
     }
     catch (Exception ex) {
